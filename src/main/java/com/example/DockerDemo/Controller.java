@@ -8,7 +8,12 @@ public class Controller {
 
     @GetMapping("/remote")
     public String remote(){
-        return "This should remote reload. And hopefully it will! For sure this time!! Lets try one more time...!!!!";
+        return "Lets see if this works for live remote reload!!! And it does!";
+    }
+
+    @GetMapping("/remote2")
+    public String remote2(){
+        return "Lets see intellij is really smart";
     }
 
 }
